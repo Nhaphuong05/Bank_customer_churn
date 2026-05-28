@@ -8,7 +8,7 @@ This project focuses on analyzing a retail banking dataset containing **10,000 c
 ## 🖼️ 2. Dashboard Preview & Interactive Features
 *The dashboard features advanced dynamic filtering, cross-highlighting, and interactive drill-down paths from country-level trends to granular customer details.*
 
-![Dashboard Main View](image_caf01d.png)
+![Dashboard Main View](dashboard/bank_churn.png)
 
 ---
 
@@ -22,7 +22,7 @@ Instead of using Power Query, a rigorous Data Cleansing and Feature Engineering 
   * `Age Group`: Segmented raw age into `Young`, `Middle-Aged`, `Senior`, and `Elderly`.
   * `Balance Category`: Binned financial status into `Low` (<$50K), `Medium` ($50K - $100K), and `High` (>$100K).
 
-👉 *To view the complete step-by-step data preprocessing and feature engineering code, please check out the source file here: **[Jupyter Notebook Link](./src/data_preprocessing.ipynb)
+👉 *To view the complete step-by-step data preprocessing and feature engineering code, please check out the source file here: **[Jupyter Notebook Link](data_preprocessing/data_preprocessing.ipynb)
 
 ---
 
